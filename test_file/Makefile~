@@ -1,0 +1,12 @@
+#foo = $(bar)
+#bar = $(ugh)
+#ugh =  Huh?
+
+#all:
+#	echo $(foo)
+
+edit : swap.c main.c
+	gcc main.c swap.c -o app_make
+	./app_make
+
+./PHONY: edit

@@ -1,0 +1,20 @@
+int mul(int a[], int b[]){
+	int i, j; //idx
+	na = len(a);
+	nb = len(b);
+	ma = na/2;
+	mb = nb/2;
+
+	int ba[ma];
+	int fa[na - ma];
+	int bb[mb];
+	int fb[nb - mb]
+
+	assign(fa[], a[], ma+1,na);
+	assign(ba[], a[], 0,ma);
+	assign(fb[], b[], mb+1,nb);
+	assign(bb[], b[], 0,nb);
+
+}
+
+int assign(int *out , int*int, int start, int end)
